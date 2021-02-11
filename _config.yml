@@ -48,7 +48,10 @@ linkedin_username: josgiraldoruiz
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is José and I'm a software engineering. I could say that I am a javascript/node/backend/react/fullstack developer, but that is not what I want to be. Or at least, not all. As well as the said before, I have experience making software and web apps from scratch, listening ideas and making them realities. I have worked at a number of companies, in which I have gained experience and teamwork.
+  Hi, my name is José and I'm a software engineering.
+   I could say that I am a javascript/node/backend/react/fullstack developer, but that is not what I want to be. 
+   Or at least, not all. As well as that, I have experience making software and web apps from scratch, I am great at listening to client ideas and making them realities. 
+   I have worked at a number of companies, in which I have gained experience and teamwork.
 
   I am most skilled in: <mark>MongoDB</mark> <mark>Express</mark> <mark>React</mark> <mark>Node</mark> 
 
@@ -73,16 +76,16 @@ content:
         quote: >
           An ecommerce for the zoosanitary sector.
         description: | # this will include new lines to allow paragraphs
-          This project was a job made as a freelance. The project started applying for a grant to the local government. In this application it was necessary to include the requirements, the deadlines, and the costs of the project.
-          The grant was awarded, and I deployed the full ecommerce web application, using a grahpql template, which was completed and adapted for the current necesities. 
+          This project was a job I developed as a freelance. The project started from zero, applying for a grant to the local government. In this application it was necessary to include the requirements, the deadlines, and the costs of the project.
+          The grant was awarded, and I deployed the full ecommerce web application, using a graphql template, which was completed and adapted for the current necesities. 
       - layout: top-middle
         title: Boorpret
         link: boorpret.com
         quote: >
           Making ideas reality.
         description: | # this will include new lines to allow paragraphs
-          During a year me and my partners create Boorpret, a company that developed all kinds of applications. We were on our own and we did it. They still making the world wide web a better place without me, and I will allways remembered how we create a company from zero.
-          Within my responsabilities I had talk with clients, manage a small team, design and develope applications, make the skeleton for the backend of all our applications, and more that I can't even relate.
+          During a year me and my partners co-founded Boorpret, a company that develops all kinds of applications, websites and graphic design. We were on our own and we did it. They still make the web world a better place without me. I will allways remember how we created a company from zero.
+          Within my responsabilities I had talks with clients, manage a small team, design and develop applications, make the skeleton for the backend of all our applications, and more that I can't even relate.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -95,7 +98,7 @@ content:
         quote: >
           Making ideas reality.
         description: | # this will include new lines to allow paragraphs
-            This had been the most important experience in my short career. I had a lot of responsabilities, coming from managing my own time, at writing contracts.  I were here for only a year, but it was a really intense experience.
+            This has been the most important experience in my short career. I had a lot of responsabilities, from managing my own time, to writing contracts. I was here for only a year, but it was a really intense experience.
       - layout: left
         title: Ayesa
         link: ayesa.com
@@ -104,7 +107,10 @@ content:
         quote: >
           First work and first contact with a relatively big company.
         description: | # this will include new lines to allow paragraphs
-            In Ayesa I work in a eight people team, in which I had a Junior position and responsabilities. In this work we used <mark>Angular 8</mark> for the frontend and <mark>Java</mark> for the backend. Even I was a junior developer, me and my teamworkers had a lot of autonomy and responsabilities, and in some moments I found myself supervising code and teaching skill to my coworkers.
+            In Ayesa I worked in a eight people team, in which I had a Junior position and responsabilities. 
+            In this work we used <mark>Angular 8</mark> for the frontend and <mark>Java</mark> for the backend.
+             Even though I was a junior developer, me and my teamworkers had a lot of autonomy and responsabilities, 
+             and in some moments I found myself supervising code and teaching skills to my coworkers.
       - layout: left
         title: Prise
         link: prise.es
@@ -113,7 +119,9 @@ content:
         quote: >
           Some incredible practices with fantastic professionals
         description: | # this will include new lines to allow paragraphs
-            I started the internship making some automatic testing, which was used for testing if some services still working day after day. After that, I developed an internal dashboard for measure the use of the resources of the company.
+            I started the internship making some automatic testing, 
+            which was used for checking if some services were still working day after day. 
+            After that, I developed an internal dashboard for measuring the use of the resources of the company.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -123,9 +131,10 @@ content:
         caption: 2013 - 2019
         sub_title: Degree in Computer Software Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at the university I learnt a huge spectrum of skills, from writing a budget to deploy a web application. I could have done better, but I was not enought focused and motivated at the moment. 
+          During my time at the university I learnt a huge spectrum of skills, from writing a budget to deploy a web application. 
+          I could have done better, but I was not enought focused and motivated at the moment. 
           
-          I expend a lot of my free time playing football with the college team, which I captained for two years, winning the city tournament two times. 
+          I expent a lot of my free time playing football with the college team, which I captained for two years, winning the city tournament two times. 
 
   - title: A Little More About Me
     layout: text
@@ -133,7 +142,7 @@ content:
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Rock climbing
       - Gaming
-      - Traveling
+      - Travelling
 
 # Footer
 footer_show_references: false
