@@ -65,7 +65,7 @@ content:
     content:
       - layout: top-middle
         title: La Mazadera
-        link: lamazadera.es
+        link: lamazadera.com
         # link_text: Project Website
         # additional_links:
         #   - title:  sproogen/modern-resume-theme
