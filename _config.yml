@@ -1,3 +1,4 @@
+#https://github.com/sproogen/modern-resume-theme
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
@@ -48,16 +49,16 @@ linkedin_username: josgiraldoruiz
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is José and I'm a software engineering.
-   I could say that I am a javascript/node/backend/react/fullstack developer, but that is not what I want to be. 
-   Or at least, not all. As well as that, I have experience making software and web apps from scratch, I am great at listening to client ideas and making them realities. 
-   I have worked at a number of companies, in which I have gained experience and teamwork.
+  Hi, my name is José and I'm a software engineer.
+   I could say that I am a javascript/node/backend/react/fullstack developer, but I find myself wanting to explore further in other software fields and excited to learn and grow within them. 
+   Or at least, not all. I also have experience making software and web apps from scratch, I am good at listening to client ideas and making them a reality. 
+   I have worked at a number of companies, in which I have gained experience and teamwork skills.
 
-  I am most skilled in: <mark>MongoDB</mark> <mark>Express</mark> <mark>React</mark> <mark>Node</mark> 
+  I am most experienced in: <mark>MongoDB</mark> <mark>Express</mark> <mark>React</mark> <mark>Node</mark> 
 
-  I also have worked with: <mark>React Native</mark> <mark>Angular 8</mark> <mark>Java</mark> <mark>Python</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>Docker</mark> <mark>Grahpql</mark> <mark>Next JS</mark> <mark>pm2</mark> <mark>nginx</mark>
+  I have also worked with: <mark>React Native</mark> <mark>Angular 8</mark> <mark>Java</mark> <mark>Python</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>Docker</mark> <mark>Grahpql</mark> <mark>Next JS</mark> <mark>pm2</mark> <mark>nginx</mark>
 
-  I am currently looking for giving a turn to my career. The paths I am more interested in are : <mark>Blockchain</mark> <mark>AI</mark> <mark>Cibersecurity</mark>    
+  I am currently looking for giving a turn to my career. The fields I am most interested in are : <mark>Blockchain</mark> <mark>AI</mark> <mark>Cibersecurity</mark>    
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -76,7 +77,7 @@ content:
         quote: >
           An ecommerce for the zoosanitary sector.
         description: | # this will include new lines to allow paragraphs
-          This project was a job I developed as a freelance. The project started from zero, applying for a grant to the local government. In this application it was necessary to include the requirements, the deadlines, and the costs of the project.
+          This project was a job I developed as a freelance. I started this project from scratch, applying for a grant from the local government. In this application it was necessary to include the requirements, the deadlines, and the costs of the project.
           The grant was awarded, and I deployed the full ecommerce web application, using a graphql template, which was completed and adapted for the current necesities. 
       - layout: top-middle
         title: Boorpret
@@ -84,8 +85,11 @@ content:
         quote: >
           Making ideas reality.
         description: | # this will include new lines to allow paragraphs
-          During a year me and my partners co-founded Boorpret, a company that develops all kinds of applications, websites and graphic design. We were on our own and we did it. They still make the web world a better place without me. I will allways remember how we created a company from zero.
-          Within my responsabilities I had talks with clients, manage a small team, design and develop applications, make the skeleton for the backend of all our applications, and more that I can't even relate.
+          In 2019 I co-founded Boorpret with some friends from university, a company that develops all kinds of applications, websites and graphic design projects. 
+          We were on our own and we did it. To this day, they keep on makingt the web world a better place. 
+          I will always remember how we created a company from zero and worked non-stop for over a year to lift it up.
+          Within my responsibilities I had to talk to clients, manage a small team of developers, design and develop applications, 
+          make the skeleton for the backend of all our applications, and so many other tasks I never saw myself doing before.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -96,9 +100,10 @@ content:
         sub_title: Software engineering
         caption: September 2019 - December 2020
         quote: >
-          Making ideas reality.
+          Making ideas a reality.
         description: | # this will include new lines to allow paragraphs
-            This has been the most important experience in my short career. I had a lot of responsabilities, from managing my own time, to writing contracts. I was here for only a year, but it was a really intense experience.
+            This has been for me the most important experience in my short career. I had a lot of responsibilities, from managing my own time as well as my teammates', 
+            to writing contracts, down to dealing closely with our clients. I was here for only a year, but it was a really intense and fruitful experience.
       - layout: left
         title: Ayesa
         link: ayesa.com
@@ -107,7 +112,7 @@ content:
         quote: >
           First work and first contact with a relatively big company.
         description: | # this will include new lines to allow paragraphs
-            In Ayesa I worked in a eight people team, in which I had a Junior position and responsabilities. 
+            In Ayesa I worked in a eight people team, in which I had a Junior position. 
             In this work we used <mark>Angular 8</mark> for the frontend and <mark>Java</mark> for the backend.
              Even though I was a junior developer, me and my teamworkers had a lot of autonomy and responsabilities, 
              and in some moments I found myself supervising code and teaching skills to my coworkers.
@@ -117,7 +122,7 @@ content:
         sub_title: Internship
         caption: September 2017 - March 2018
         quote: >
-          Some incredible practices with fantastic professionals
+          A great internship with fantastic professionals
         description: | # this will include new lines to allow paragraphs
             I started the internship making some automatic testing, 
             which was used for checking if some services were still working day after day. 
@@ -131,10 +136,9 @@ content:
         caption: 2013 - 2019
         sub_title: Degree in Computer Software Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at university I learnt a huge spectrum of skills, from writing a budget to deploy a web application. 
-          I could have done better, but I was not enought focused and motivated at the moment. 
+          During my time at university I learnt a huge spectrum of skills, from writing a budget to deploying a web application.  
           
-          I expent a lot of my free time playing football with the college team, which I captained for two years, winning the city tournament two times. 
+          I also expent a lot of my free time playing football with the college team, which I captained for two years, winning the city tournament twice. 
 
   - title: A Little More About Me
     layout: text
