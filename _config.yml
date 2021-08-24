@@ -1,6 +1,6 @@
 #https://github.com/sproogen/modern-resume-theme
 # Site
-repository: sproogen/resume-theme
+# repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -47,18 +47,16 @@ linkedin_username: josgiraldoruiz
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is José and I'm a software engineer.
-   I could say that I am a javascript/node/backend/react/fullstack developer, but I find myself wanting to explore further in other software fields and excited to learn and grow within them. 
-   Or at least, not all. I also have experience making software and web apps from scratch, I am good at listening to client ideas and making them a reality. 
+   I am a software developer with four years of experience. In these years I have specialized in javascript/typescript, using differents libraries to build successful products.
    I have worked at a number of companies, in which I have gained experience and teamwork skills.
 
   I am most experienced in: <mark>MongoDB</mark> <mark>Express</mark> <mark>React</mark> <mark>Node</mark> 
 
-  I have also worked with: <mark>React Native</mark> <mark>Angular 8</mark> <mark>Java</mark> <mark>Python</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>Docker</mark> <mark>Grahpql</mark> <mark>Next JS</mark> <mark>pm2</mark> <mark>nginx</mark>
-
-  I am currently looking for giving a turn to my career. The fields I am most interested in are : <mark>Blockchain</mark> <mark>AI</mark> <mark>Cibersecurity</mark>    
+  I have also worked with: <mark>GraphQL</mark> <mark>React Native</mark> <mark>Golang</mark> <mark>Angular 8</mark> <mark>Java</mark> <mark>Python</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>Docker</mark> <mark>Grahpql</mark> <mark>Next JS</mark> <mark>pm2</mark> <mark>nginx</mark>
+  
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -78,7 +76,7 @@ content:
           An ecommerce for the zoosanitary sector.
         description: | # this will include new lines to allow paragraphs
           This project was a job I developed as a freelance. I started this project from scratch, applying for a grant from the local government. In this application it was necessary to include the requirements, the deadlines, and the costs of the project.
-          The grant was awarded, and I deployed the full ecommerce web application, using a graphql template, which was completed and adapted for the current necesities. 
+          The grant was awarded, and I deployed the full ecommerce web application, using graphql and react. 
       - layout: top-middle
         title: Boorpret
         link: boorpret.com
@@ -86,7 +84,7 @@ content:
           Making ideas reality.
         description: | # this will include new lines to allow paragraphs
           In 2019 I co-founded Boorpret with some friends from university, a company that develops all kinds of applications, websites and graphic design projects. 
-          We were on our own and we did it. To this day, they keep on makingt the web world a better place. 
+          We were on our own and we did it. To this day, they keep on making the web world a better place. 
           I will always remember how we created a company from zero and worked non-stop for over a year to lift it up.
           Within my responsibilities I had to talk to clients, manage a small team of developers, design and develop applications, 
           make the skeleton for the backend of all our applications, and so many other tasks I never saw myself doing before.
@@ -95,6 +93,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Capitole Consulting
+        link: capitole-consulting.com
+        sub_title: Software engineering
+        caption: March 2021 - at present
+        quote: >
+            Growing fast, growing good
+        description: | # this will include new lines to allow paragraphs
+            Consultant in a very innovative company. I develop new functionalities to the most innovative software in the company, and give support to the clients. I work in a group of ten to fifteen people.
+      - layout: left
         title: Boorpret
         link: boorpret.com
         sub_title: Software engineering
@@ -102,7 +109,7 @@ content:
         quote: >
           Making ideas a reality.
         description: | # this will include new lines to allow paragraphs
-            This has been for me the most important experience in my short career. I had a lot of responsibilities, from managing my own time as well as my teammates', 
+            This has been for me the most important experience in my career. I had a lot of responsibilities, from managing my own time as well as my teammates', 
             to writing contracts, down to dealing closely with our clients. I was here for only a year, but it was a really intense and fruitful experience.
       - layout: left
         title: Ayesa
