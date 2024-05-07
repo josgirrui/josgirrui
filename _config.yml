@@ -8,7 +8,7 @@ version: 2
 
 # Personal info
 name: José Giraldo Ruiz
-title: Software engineering
+title: Senior Software engineering
 email: dragojola@gmail.com
 website: josgirrui.github.io/josgirrui/
 
@@ -49,18 +49,34 @@ linkedin_username: josgiraldoruiz
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is José and I'm a software engineer.
-   I am a software developer with four years of experience. In these years I have specialized in javascript/typescript, using differents libraries to build successful products.
-   I have worked at a number of companies, in which I have gained experience and teamwork skills.
+  Hi, my name is José, and I'm a Senior Software Engineer. My work journey has led me to gain extensive experience 
+  in JavaScript/TypeScript, with a slightly stronger focus on backend development but also encompassing 
+  knowledge and experience in frontend technologies. Over the past couple of years, I have dedicated myself 
+  to enhancing my leadership skills and my ability to design and develop systems to tackle complex use cases. 
+  I consider myself easy to work with. I strive to foster a positive work environment by empathizing with my colleagues, 
+  learning from them, and facilitating their growth whenever possible.
+  
+  I am most experienced in: <mark>Node</mark> <mark>Express</mark> <mark>React</mark> <mark>AWS</mark> 
 
-  I am most experienced in: <mark>MongoDB</mark> <mark>Express</mark> <mark>React</mark> <mark>Node</mark> 
-
-  I have also worked with: <mark>GraphQL</mark> <mark>React Native</mark> <mark>Golang</mark> <mark>Angular 8</mark> <mark>Java</mark> <mark>Python</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>Docker</mark> <mark>Grahpql</mark> <mark>Next JS</mark> <mark>pm2</mark> <mark>nginx</mark>
+  I have also worked with: <mark>GraphQL</mark> <mark>React Native</mark> <mark>Angular 8</mark> <mark>Java</mark> <mark>Python</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>Docker</mark> <mark>Grahpql</mark> <mark>Next JS</mark> <mark>pm2</mark> <mark>nginx</mark>
   
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Klarna
+        link: klarna.com
+        quote: >
+          A Swedish fintech company that provides online financial services.
+        description: | # this will include new lines to allow paragraphs
+        Joining Klarna marked a significant milestone in my career journey, and the experience has exceeded my expectations. 
+        Initially hired as an Engineer, I was privileged to be promoted to the role of Senior Software Engineer within a year. 
+        Collaborating within a dynamic team of approximately 10 individuals, including 6-7 engineers, we spearheaded the design 
+        and implementation of a pivotal service within the purchase flow. This innovative solution has gradually supplanted 
+        legacy systems across the organization. My tenure at Klarna has been instrumental in my personal and professional 
+        growth, providing invaluable opportunities for development and achievement.
+      
       - layout: top-middle
         title: La Mazadera
         link: lamazadera.com
