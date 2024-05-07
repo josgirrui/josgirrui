@@ -109,10 +109,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Klarna
+        link: klarna.com
+        sub_title: Senior Software engineering
+        caption: December 2021 - at present
+        quote: >
+          Buy now, pay later.
+        description: | # this will include new lines to allow paragraphs
+          My tenure at a large international company has been transformative. 
+          I've experienced exponential growth and maturity, surpassing even my own expectations.
+      - layout: left
         title: Capitole Consulting
         link: capitole-consulting.com
         sub_title: Software engineering
-        caption: March 2021 - at present
+        caption: March 2021 - December 2021
         quote: >
             Growing fast, growing good
         description: | # this will include new lines to allow paragraphs
