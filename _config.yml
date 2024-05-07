@@ -70,12 +70,12 @@ content:
         quote: >
           A Swedish fintech company that provides online financial services.
         description: | # this will include new lines to allow paragraphs
-        Joining Klarna marked a significant milestone in my career journey, and the experience has exceeded my expectations. 
-        Initially hired as an Engineer, I was privileged to be promoted to the role of Senior Software Engineer within a year. 
-        Collaborating within a dynamic team of approximately 10 individuals, including 6-7 engineers, we spearheaded the design 
-        and implementation of a pivotal service within the purchase flow. This innovative solution has gradually supplanted 
-        legacy systems across the organization. My tenure at Klarna has been instrumental in my personal and professional 
-        growth, providing invaluable opportunities for development and achievement.
+          Joining Klarna marked a significant milestone in my career journey, and the experience has exceeded my expectations. 
+          Initially hired as an Engineer, I was privileged to be promoted to the role of Senior Software Engineer within a year. 
+          Collaborating within a dynamic team of approximately 10 individuals, including 6-7 engineers, we spearheaded the design 
+          and implementation of a pivotal service within the purchase flow. This innovative solution has gradually supplanted 
+          legacy systems across the organization. My tenure at Klarna has been instrumental in my personal and professional 
+          growth, providing invaluable opportunities for development and achievement.
       
       - layout: top-middle
         title: La Mazadera
