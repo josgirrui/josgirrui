@@ -63,7 +63,9 @@ about_content: | # this will include new lines to allow paragraphs
 
   Core: <mark>TypeScript</mark> <mark>Node.js</mark> <mark>AWS</mark> <mark>Event-driven architecture</mark> <mark>System design</mark>
 
-  Also: <mark>React</mark> <mark>Next JS</mark> <mark>GraphQL</mark> <mark>React Native</mark> <mark>Python</mark> <mark>Java</mark> <mark>Docker</mark> <mark>Jenkins</mark> <mark>nginx</mark>
+  Infrastructure: <mark>DynamoDB</mark> <mark>Kafka</mark> <mark>SQS</mark> <mark>Kinesis Firehose</mark> <mark>Terraform</mark> <mark>Docker</mark> <mark>Jenkins</mark>
+
+  Also: <mark>React</mark> <mark>Next JS</mark> <mark>GraphQL</mark> <mark>React Native</mark> <mark>Python</mark> <mark>Java</mark> <mark>nginx</mark>
 
   Spanish (native) · English (fluent — my working language for the last five years)
 
@@ -83,14 +85,16 @@ content:
 
           - Designed and built the service that now handles KYC for every Klarna product across every market:
             all of Europe (including the UK and Switzerland), the US, Canada, Mexico and Australia. It serves
-            <mark>40M+ verification sessions a week</mark> for <mark>15+ product teams</mark>.
+            <mark>tens of millions of verification sessions every week</mark> for <mark>15+ product teams</mark>.
+          - Built it as an event-driven system in TypeScript and Node on AWS — DynamoDB, SQS and Kinesis
+            Firehose — with Kafka for event streaming and Terraform for infrastructure.
           - Led the replacement of the previous solution, whose logic was scattered across several legacy
             services. The migration took over a year and is 100% complete — no KYC logic lives outside the
             platform any more.
           - Own the technical bar of the service: every risky change goes through my review, and I am the
             person the team asks when something is unclear or on fire.
           - Drove cross-team integrations, including headless verification flows for onboarding and the KYC
-            rollout for a flagship US partner launch.
+            rollout for Klarna's launch with Apple in the US.
           - On call for a system where an outage blocks purchases and a compliance gap is not recoverable.
           - Onboarded and mentored around 15 engineers as the team grew and reshaped. Team leads changed
             several times over these years; I was the continuity between them.
@@ -109,17 +113,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Consultant in a team of ten to fifteen people, building new functionality for the company's flagship
           product and supporting the clients running it.
-      - layout: left
-        title: La Mazadera
-        link: https://lamazadera.com
-        sub_title: Freelance Full-stack Developer
-        caption: 2020 - 2021 # TODO: confirm the real dates
-        quote: >
-          An ecommerce for the zoosanitary sector.
-        description: | # this will include new lines to allow paragraphs
-          A freelance project I took from nothing to production on my own. I wrote the application for a local
-          government grant — requirements, milestones and costings included — won it, and then built and
-          deployed the full ecommerce platform with React and GraphQL.
       - layout: left
         title: Boorpret
         link: https://boorpret.com
