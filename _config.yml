@@ -8,9 +8,9 @@ version: 2
 
 # Personal info
 name: José Giraldo Ruiz
-title: Senior Software engineering
+title: Senior Software Engineer
 email: dragojola@gmail.com
-website: josgirrui.github.io/josgirrui/
+website: https://josgirrui.github.io/josgirrui/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -49,117 +49,110 @@ linkedin_username: josgiraldoruiz
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is José, and I'm a Senior Software Engineer. My work journey has led me to gain extensive experience 
-  in JavaScript/TypeScript, with a slightly stronger focus on backend development but also encompassing 
-  knowledge and experience in frontend technologies. Over the past couple of years, I have dedicated myself 
-  to enhancing my leadership skills and my ability to design and develop systems to tackle complex use cases. 
-  I consider myself easy to work with. I strive to foster a positive work environment by empathizing with my colleagues, 
-  learning from them, and facilitating their growth whenever possible.
-  
-  I am most experienced in: <mark>Node</mark> <mark>Express</mark> <mark>React</mark> <mark>AWS</mark> 
+  I'm a Senior Software Engineer based in Spain, working fully remote. For the last five years I have been at
+  Klarna in the KYC domain, as the technical anchor of the team that designed, built and rolled out the service
+  that now runs identity verification for every Klarna product, in every market Klarna operates in.
 
-  I have also worked with: <mark>GraphQL</mark> <mark>React Native</mark> <mark>Angular 8</mark> <mark>Java</mark> <mark>Python</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>Docker</mark> <mark>Grahpql</mark> <mark>Next JS</mark> <mark>pm2</mark> <mark>nginx</mark>
-  
+  I work mostly in TypeScript and Node on AWS, on event-driven systems that have to be correct, auditable and
+  always available — KYC is a regulated domain, so "mostly working" is not an option. Team leads around me have
+  changed several times; I have been the constant: the person who reviews the risky changes and the one new
+  engineers come to when they are stuck.
+
+  I am looking for a place small enough that this matters — a startup or a small company where I can own real
+  problems end to end and grow with it.
+
+  Core: <mark>TypeScript</mark> <mark>Node.js</mark> <mark>AWS</mark> <mark>Event-driven architecture</mark> <mark>System design</mark>
+
+  Also: <mark>React</mark> <mark>Next JS</mark> <mark>GraphQL</mark> <mark>React Native</mark> <mark>Python</mark> <mark>Java</mark> <mark>Docker</mark> <mark>Jenkins</mark> <mark>nginx</mark>
+
+  Spanish (native) · English (fluent — my working language for the last five years)
+
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Klarna
-        link: klarna.com
-        quote: >
-          A Swedish fintech company that provides online financial services.
-        description: | # this will include new lines to allow paragraphs
-          Joining Klarna marked a significant milestone in my career journey, and the experience has exceeded my expectations. 
-          Initially hired as an Engineer, I was privileged to be promoted to the role of Senior Software Engineer within a year. 
-          Collaborating within a dynamic team of approximately 10 individuals, including 6-7 engineers, we spearheaded the design 
-          and implementation of a pivotal service within the purchase flow. This innovative solution has gradually supplanted 
-          legacy systems across the organization. My tenure at Klarna has been instrumental in my personal and professional 
-          growth, providing invaluable opportunities for development and achievement.
-      
-      - layout: top-middle
-        title: La Mazadera
-        link: lamazadera.com
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          An ecommerce for the zoosanitary sector.
-        description: | # this will include new lines to allow paragraphs
-          This project was a job I developed as a freelance. I started this project from scratch, applying for a grant from the local government. In this application it was necessary to include the requirements, the deadlines, and the costs of the project.
-          The grant was awarded, and I deployed the full ecommerce web application, using graphql and react. 
-      - layout: top-middle
-        title: Boorpret
-        link: boorpret.com
-        quote: >
-          Making ideas reality.
-        description: | # this will include new lines to allow paragraphs
-          In 2019 I co-founded Boorpret with some friends from university, a company that develops all kinds of applications, websites and graphic design projects. 
-          We were on our own and we did it. To this day, they keep on making the web world a better place. 
-          I will always remember how we created a company from zero and worked non-stop for over a year to lift it up.
-          Within my responsibilities I had to talk to clients, manage a small team of developers, design and develop applications, 
-          make the skeleton for the backend of all our applications, and so many other tasks I never saw myself doing before.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Klarna
-        link: klarna.com
-        sub_title: Senior Software engineering
-        caption: December 2021 - at present
+        link: https://klarna.com
+        sub_title: Senior Software Engineer
+        caption: December 2021 - Present
         quote: >
           Buy now, pay later.
         description: | # this will include new lines to allow paragraphs
-          My tenure at a large international company has been transformative. 
-          I've experienced exponential growth and maturity, surpassing even my own expectations.
+          Senior Software Engineer in the KYC domain, and the de facto technical lead of the team.
+
+          - Designed and built the service that now handles KYC for every Klarna product across every market:
+            all of Europe (including the UK and Switzerland), the US, Canada, Mexico and Australia. It serves
+            <mark>40M+ verification sessions a week</mark> for <mark>15+ product teams</mark>.
+          - Led the replacement of the previous solution, whose logic was scattered across several legacy
+            services. The migration took over a year and is 100% complete — no KYC logic lives outside the
+            platform any more.
+          - Own the technical bar of the service: every risky change goes through my review, and I am the
+            person the team asks when something is unclear or on fire.
+          - Drove cross-team integrations, including headless verification flows for onboarding and the KYC
+            rollout for a flagship US partner launch.
+          - On call for a system where an outage blocks purchases and a compliance gap is not recoverable.
+          - Onboarded and mentored around 15 engineers as the team grew and reshaped. Team leads changed
+            several times over these years; I was the continuity between them.
+          - Work daily with financial regulation across jurisdictions — AML requirements, PII handling and
+            audit trails — translating compliance constraints into system design.
+          - Promoted to Senior Software Engineer in May 2023, with further sub-level promotions and
+            performance awards in the years since.
+          - The team ships entirely with AI assistance today: 100% of our changes are written with Claude.
       - layout: left
         title: Capitole Consulting
-        link: capitole-consulting.com
-        sub_title: Software engineering
+        link: https://capitole-consulting.com
+        sub_title: Software Engineer
         caption: March 2021 - December 2021
         quote: >
-            Growing fast, growing good
+          Growing fast, growing good.
         description: | # this will include new lines to allow paragraphs
-            Consultant in a very innovative company. I develop new functionalities to the most innovative software in the company, and give support to the clients. I work in a group of ten to fifteen people.
+          Consultant in a team of ten to fifteen people, building new functionality for the company's flagship
+          product and supporting the clients running it.
+      - layout: left
+        title: La Mazadera
+        link: https://lamazadera.com
+        sub_title: Freelance Full-stack Developer
+        caption: 2020 - 2021 # TODO: confirm the real dates
+        quote: >
+          An ecommerce for the zoosanitary sector.
+        description: | # this will include new lines to allow paragraphs
+          A freelance project I took from nothing to production on my own. I wrote the application for a local
+          government grant — requirements, milestones and costings included — won it, and then built and
+          deployed the full ecommerce platform with React and GraphQL.
       - layout: left
         title: Boorpret
-        link: boorpret.com
-        sub_title: Software engineering
+        link: https://boorpret.com
+        sub_title: Co-founder & Software Engineer
         caption: September 2019 - December 2020
         quote: >
           Making ideas a reality.
         description: | # this will include new lines to allow paragraphs
-            This has been for me the most important experience in my career. I had a lot of responsibilities, from managing my own time as well as my teammates', 
-            to writing contracts, down to dealing closely with our clients. I was here for only a year, but it was a really intense and fruitful experience.
+          I co-founded Boorpret with friends from university: a company building web and mobile applications,
+          and graphic design work. I talked to clients, wrote contracts, managed a small team of developers,
+          and built the backend skeleton every one of our applications was based on. We started from zero and
+          kept it running for over a year — and it is still going today, without me.
       - layout: left
         title: Ayesa
-        link: ayesa.com
-        sub_title: Junior fullstack developer
+        link: https://ayesa.com
+        sub_title: Junior Full-stack Developer
         caption: April 2018 - March 2019
         quote: >
-          First work and first contact with a relatively big company.
+          First job, first contact with a large company.
         description: | # this will include new lines to allow paragraphs
-            In Ayesa I worked in a eight people team, in which I had a Junior position. 
-            In this work we used <mark>Angular 8</mark> for the frontend and <mark>Java</mark> for the backend.
-             Even though I was a junior developer, me and my teamworkers had a lot of autonomy and responsabilities, 
-             and in some moments I found myself supervising code and teaching skills to my coworkers.
+          Part of an eight-person team building an internal platform with <mark>Angular 8</mark> on the
+          frontend and <mark>Java</mark> on the backend. Despite being the junior on the team I had a lot of
+          autonomy, and ended up reviewing code and teaching parts of the stack to my teammates.
       - layout: left
         title: Prise
-        link: prise.es
-        sub_title: Internship
+        link: https://prise.es
+        sub_title: Software Engineering Intern
         caption: September 2017 - March 2018
         quote: >
-          A great internship with fantastic professionals
+          A great internship with fantastic professionals.
         description: | # this will include new lines to allow paragraphs
-            I started the internship making some automatic testing, 
-            which was used for checking if some services were still working day after day. 
-            After that, I developed an internal dashboard for measuring the use of the resources of the company.
+          I started by writing automated tests that checked, day after day, that the company's services were
+          still alive. After that I built an internal dashboard for measuring the company's resource usage.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -169,17 +162,17 @@ content:
         caption: 2013 - 2019
         sub_title: Degree in Computer Software Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at university I learnt a huge spectrum of skills, from writing a budget to deploying a web application.  
-          
-          I also expent a lot of my free time playing football with the college team, which I captained for two years, winning the city tournament twice. 
+          A broad degree that covered everything from writing a budget to deploying a web application.
+
+          I also captained the university football team for two years, winning the city tournament twice.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Travelling
+      Away from the keyboard I spend most of my time outdoors:
+      - Farming — I keep my own vegetable garden and land
+      - Football
+      - Hiking
 
 # Footer
 footer_show_references: false
