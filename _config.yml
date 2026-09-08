@@ -82,22 +82,17 @@ content:
           in May 2023, and have earned further sub-level promotions and performance awards since.
 
           - Designed and built the service that now handles KYC for every Klarna product across every market —
-            all of Europe including the UK and Switzerland, plus the US, Canada, Mexico and Australia. It
-            serves <mark>tens of millions of verification sessions every week</mark> for
+            Europe including the UK and Switzerland, plus the US, Canada, Mexico and Australia — serving
+            <mark>tens of millions of verification sessions every week</mark> for
             <mark>15+ product teams</mark>.
-          - Built it as an event-driven system in TypeScript and Node on AWS — DynamoDB, SQS and Kinesis
-            Firehose — with Kafka for event streaming and Terraform for infrastructure.
-          - Replaced the previous solution, whose logic was scattered across several legacy services. The
-            migration took over a year and is 100% complete: no KYC logic lives outside the platform any more.
-          - Hold the technical bar for the service. Every risky change goes through my review, and I carry
-            on-call for a system where an outage blocks purchases and a compliance gap cannot be patched
-            after the fact.
+          - Built it as an event-driven system in TypeScript and Node on AWS, with Kafka, DynamoDB, SQS,
+            Kinesis Firehose and Terraform, replacing a solution whose logic was scattered across several
+            legacy services. The migration took over a year and is 100% complete.
+          - Hold the technical bar for the service: every risky change goes through my review, I carry on-call,
+            and I turn AML requirements across jurisdictions into design decisions the team can build against.
           - Led cross-team integrations, among them headless verification flows for onboarding and the KYC
             rollout for Klarna's launch with Apple in the US.
-          - Onboarded and mentored around 15 engineers as the team grew and reshaped, and stayed the technical
-            continuity through several changes of leadership.
-          - Translate financial regulation — AML requirements across jurisdictions, PII handling, audit
-            trails — into design decisions the team can build against.
+          - Onboarded and mentored around 15 engineers, and have become one of the people the team leans on.
           - Shaped how the team works with AI. Every change we ship today is written with Claude.
       - layout: left
         title: Capitole Consulting
