@@ -13,7 +13,7 @@ email: dragojola@gmail.com
 website: https://josgirrui.github.io/josgirrui/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: facespics
@@ -49,17 +49,17 @@ linkedin_username: josgiraldoruiz
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a Senior Software Engineer based in Spain, working fully remote. For the last five years I have been at
-  Klarna in the KYC domain, as the technical anchor of the team that designed, built and rolled out the service
-  that now runs identity verification for every Klarna product, in every market Klarna operates in.
+  I'm a Senior Software Engineer based in Spain, working fully remote. For the last five years I've been at
+  Klarna, where I built and now own the service that runs identity verification for every Klarna product, in
+  every market the company operates in.
 
-  I work mostly in TypeScript and Node on AWS, on event-driven systems that have to be correct, auditable and
-  always available — KYC is a regulated domain, so "mostly working" is not an option. Team leads around me have
-  changed several times; I have been the constant: the person who reviews the risky changes and the one new
-  engineers come to when they are stuck.
+  My work sits in a regulated domain, and that shapes how I build: event-driven systems in TypeScript and Node
+  on AWS, designed to be correct, auditable and always available, because a KYC failure is not something you
+  patch on Monday. Team leads around me have changed several times over these years. I've been the constant —
+  the one who reviews the risky changes, and the one new engineers come to when they're stuck.
 
-  I am looking for a place small enough that this matters — a startup or a small company where I can own real
-  problems end to end and grow with it.
+  I'm looking for a smaller company, where that kind of ownership counts and where I can grow with what we
+  build.
 
   Core: <mark>TypeScript</mark> <mark>Node.js</mark> <mark>AWS</mark> <mark>Event-driven architecture</mark> <mark>System design</mark>
 
@@ -81,28 +81,27 @@ content:
         quote: >
           Buy now, pay later.
         description: | # this will include new lines to allow paragraphs
-          Senior Software Engineer in the KYC domain, and the de facto technical lead of the team.
+          Technical lead in practice for Klarna's KYC domain. I joined as an engineer, was promoted to Senior
+          in May 2023, and have earned further sub-level promotions and performance awards since.
 
-          - Designed and built the service that now handles KYC for every Klarna product across every market:
-            all of Europe (including the UK and Switzerland), the US, Canada, Mexico and Australia. It serves
-            <mark>tens of millions of verification sessions every week</mark> for <mark>15+ product teams</mark>.
+          - Designed and built the service that now handles KYC for every Klarna product across every market —
+            all of Europe including the UK and Switzerland, plus the US, Canada, Mexico and Australia. It
+            serves <mark>tens of millions of verification sessions every week</mark> for
+            <mark>15+ product teams</mark>.
           - Built it as an event-driven system in TypeScript and Node on AWS — DynamoDB, SQS and Kinesis
             Firehose — with Kafka for event streaming and Terraform for infrastructure.
-          - Led the replacement of the previous solution, whose logic was scattered across several legacy
-            services. The migration took over a year and is 100% complete — no KYC logic lives outside the
-            platform any more.
-          - Own the technical bar of the service: every risky change goes through my review, and I am the
-            person the team asks when something is unclear or on fire.
-          - Drove cross-team integrations, including headless verification flows for onboarding and the KYC
+          - Replaced the previous solution, whose logic was scattered across several legacy services. The
+            migration took over a year and is 100% complete: no KYC logic lives outside the platform any more.
+          - Hold the technical bar for the service. Every risky change goes through my review, and I carry
+            on-call for a system where an outage blocks purchases and a compliance gap cannot be patched
+            after the fact.
+          - Led cross-team integrations, among them headless verification flows for onboarding and the KYC
             rollout for Klarna's launch with Apple in the US.
-          - On call for a system where an outage blocks purchases and a compliance gap is not recoverable.
-          - Onboarded and mentored around 15 engineers as the team grew and reshaped. Team leads changed
-            several times over these years; I was the continuity between them.
-          - Work daily with financial regulation across jurisdictions — AML requirements, PII handling and
-            audit trails — translating compliance constraints into system design.
-          - Promoted to Senior Software Engineer in May 2023, with further sub-level promotions and
-            performance awards in the years since.
-          - The team ships entirely with AI assistance today: 100% of our changes are written with Claude.
+          - Onboarded and mentored around 15 engineers as the team grew and reshaped, and stayed the technical
+            continuity through several changes of leadership.
+          - Translate financial regulation — AML requirements across jurisdictions, PII handling, audit
+            trails — into design decisions the team can build against.
+          - Shaped how the team works with AI. Every change we ship today is written with Claude.
       - layout: left
         title: Capitole Consulting
         link: https://capitole-consulting.com
@@ -111,8 +110,8 @@ content:
         quote: >
           Growing fast, growing good.
         description: | # this will include new lines to allow paragraphs
-          Consultant in a team of ten to fifteen people, building new functionality for the company's flagship
-          product and supporting the clients running it.
+          Consultant on the company's flagship product, in a team of ten to fifteen. I shipped new
+          functionality and supported the clients running it in production.
       - layout: left
         title: Boorpret
         link: https://boorpret.com
@@ -121,10 +120,10 @@ content:
         quote: >
           Making ideas a reality.
         description: | # this will include new lines to allow paragraphs
-          I co-founded Boorpret with friends from university: a company building web and mobile applications,
-          and graphic design work. I talked to clients, wrote contracts, managed a small team of developers,
-          and built the backend skeleton every one of our applications was based on. We started from zero and
-          kept it running for over a year — and it is still going today, without me.
+          I co-founded Boorpret with friends from university, building web and mobile applications and design
+          work for clients. I ran the client conversations and the contracts, managed a small team of
+          developers, and wrote the backend foundation every one of our applications was built on. We took it
+          from nothing to a working business in a year, and it is still going today without me.
       - layout: left
         title: Ayesa
         link: https://ayesa.com
@@ -133,9 +132,9 @@ content:
         quote: >
           First job, first contact with a large company.
         description: | # this will include new lines to allow paragraphs
-          Part of an eight-person team building an internal platform with <mark>Angular 8</mark> on the
-          frontend and <mark>Java</mark> on the backend. Despite being the junior on the team I had a lot of
-          autonomy, and ended up reviewing code and teaching parts of the stack to my teammates.
+          Built an internal platform in a team of eight, with <mark>Angular 8</mark> on the frontend and
+          <mark>Java</mark> on the backend. I was the junior on paper, but had enough autonomy that I ended up
+          reviewing code and teaching parts of the stack to my teammates.
       - layout: left
         title: Prise
         link: https://prise.es
@@ -144,8 +143,8 @@ content:
         quote: >
           A great internship with fantastic professionals.
         description: | # this will include new lines to allow paragraphs
-          I started by writing automated tests that checked, day after day, that the company's services were
-          still alive. After that I built an internal dashboard for measuring the company's resource usage.
+          Wrote the automated tests that checked, day after day, that the company's services were still
+          healthy, then built an internal dashboard for tracking resource usage across the company.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -155,15 +154,15 @@ content:
         caption: 2013 - 2019
         sub_title: Degree in Computer Software Engineering
         description: | # this will include new lines to allow paragraphs
-          A broad degree that covered everything from writing a budget to deploying a web application.
+          A broad degree, covering everything from writing a budget to deploying a web application.
 
-          I also captained the university football team for two years, winning the city tournament twice.
+          I also captained the university football team for two years, and we won the city tournament twice.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Away from the keyboard I spend most of my time outdoors:
-      - Farming — I keep my own vegetable garden and land
+      Away from the keyboard I am usually outside:
+      - Farming — I keep my own vegetable garden and a piece of land
       - Football
       - Hiking
 
