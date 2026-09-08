@@ -55,8 +55,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   My work sits in a regulated domain, and that shapes how I build: event-driven systems in TypeScript and Node
   on AWS, designed to be correct, auditable and always available, because a KYC failure is not something you
-  patch on Monday. Team leads around me have changed several times over these years. I've been the constant —
-  the one who reviews the risky changes, and the one new engineers come to when they're stuck.
+  patch on Monday. Over these years I've become one of the people the team leans on — the one who reviews the
+  risky changes, and the one new engineers come to when they're stuck.
 
   Core: <mark>TypeScript</mark> <mark>Node.js</mark> <mark>AWS</mark> <mark>Event-driven architecture</mark> <mark>System design</mark>
 
