@@ -58,9 +58,6 @@ about_content: | # this will include new lines to allow paragraphs
   patch on Monday. Team leads around me have changed several times over these years. I've been the constant —
   the one who reviews the risky changes, and the one new engineers come to when they're stuck.
 
-  I'm looking for a smaller company, where that kind of ownership counts and where I can grow with what we
-  build.
-
   Core: <mark>TypeScript</mark> <mark>Node.js</mark> <mark>AWS</mark> <mark>Event-driven architecture</mark> <mark>System design</mark>
 
   Infrastructure: <mark>DynamoDB</mark> <mark>Kafka</mark> <mark>SQS</mark> <mark>Kinesis Firehose</mark> <mark>Terraform</mark> <mark>Docker</mark> <mark>Jenkins</mark>
